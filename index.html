@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikes</title>
+    <link rel="stylesheet" href="sass/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue:regular" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container _container">
+                <nav class="header-nav">
+                    <div class="header-logo">
+                        <img src="./images/logo.svg" alt="" class="logo">
+                    </div>
+                    <div class="header-menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Trade In
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link" id="open-modal-btn">
+                                    Велосипеды
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Запчасти
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Экипировка
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Аксессуары
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    Велостанки
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-icons">
+                        <img src="./images/search.svg" alt="search" class="icon-search">
+                        <img src="./images/user.svg" alt="user" class="icon-user">
+                        <img src="./images/favorites.png" alt="" class="icon-favorites">
+                        <img src="./images/basket.svg" alt="" class="icon-basket">
+                    </div>
+                    <button class="burger" data-burger>
+                        <div class="burger-line"></div>
+                    </button>
+
+
+
+                </nav>
+                <div class="popup-menu" id="my-modal">
+                    <ul class="popup-menu__list">
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Горные велосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Городские велосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Шоссейные велосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Гравийные велосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Трековые велосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Велосипеды для триатлона</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Двухподвесные велосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Электровелосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Женские велосипеды</a>
+                        </li>
+                        <li class="popup-menu__item">
+                            <a href="" class="popup-menu__link">Детские велосипеды</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-slider" id="slider">
+                    <div class="header-content block">
+                        <h1 class="header-content__title">Электро<br> велосипеды</h1>
+                        <p class="header-content__text">Cento10 Hybrid — это гоночный велосипед с помогающим
+                            <br>педалированию
+                            электроприводом, который устанавливает новый, очень высокий стандарт для данной категории
+                        </p>
+                        <a href="#" class="header-content__link">Подробнее</a>
+                    </div>
+                    <div class="header-content">
+                        <h1 class="header-content__title">Горные <br> велосипеды</h1>
+                        <p class="header-content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus aliquam laudantium, quos quaerat sit nihil veritatis, impedit eligendi,
+                            pariatur distinctio ut sunt. Assumenda molestias repellat ipsum fugit consequatur, ad error.
+                        </p>
+                        <a href="#" class="header-content__link">Подробнее</a>
+                    </div>
+                    <div class="header-content">
+                        <h1 class="header-content__title">Шоссейные<br> велосипеды</h1>
+                        <p class="header-content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Explicabo cupiditate aliquam reiciendis quis doloremque tenetur ipsa inventore obcaecati
+                            officia corporis illum mollitia, quos alias cum aspernatur ducimus quam porro commodi!
+                        </p>
+                        <a href="#" class="header-content__link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="slider-dots" id="bottom">
+                </div>
+            </div>
+            <div class="dop-menu" data-menu>
+                <button class="dop-menu__close" data-close></button>
+                <h3 class="dop-menu__title">
+                    Доп. Информация
+                </h3>
+                <nav class="dop-menu__nav">
+                    <ul class="dop-menu__list">
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">О нас</a>
+                        </li>
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">Веломастерская</a>
+                        </li>
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">Хранение</a>
+                        </li>
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">Гарантии</a>
+                        </li>
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">Пользовательское соглашение</a>
+                        </li>
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">Доставка и оплата</a>
+                        </li>
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">Блог</a>
+                        </li>
+                        <li class="dop-menu__item">
+                            <a href="#" class="dop-menu__link">Контакты</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="tabs ">
+                <div class="tabs-container _container">
+                    <div class="tab-content" data-tab>
+                        <div class="tab-content__text">Экстремальное <br>вождение на горном <br> велосипеде</div>
+                        <a href="#" class="tab-content__link">Подробнее</a>
+                    </div>
+                    <div class="tab-content tab-content-background2" data-tab2>
+                        <div class="tab-content__text">Велосипеды для <br>профессионалов</div>
+                        <a href="#" class="tab-content__link">Подробнее</a>
+                    </div>
+                    <div class="tab-content tab-content-background3" data-tab3>
+                        <div class="tab-content__text">Долгая поездка на <br>шоссейном велосипеде</div>
+                        <a href="#" class="tab-content__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="brands-carousel">
+                <div class="brands-carousel-wrapper bar">
+
+                    <div class="brands-carousel-items">
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/1.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/2.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/3.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/4.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/3.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/5.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/6.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                        <div class="brands-carousel-wrapper__item"><img src="./images/brands/7.png" alt="brand"
+                                class="brands-carousel__img"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="main-cards">
+                <div class="main-cards-container _container">
+                    <div class="main-card">
+                        <div class="main-card__instock">Распродано</div>
+                        <div class="flag"><img src="./images/assortiment/flag1.png" alt=""></div>
+                        <div class="main-card__img">
+                            <img src="./images/assortiment/02.png" alt="">
+                        </div>
+                        <div class="main-card__tex">Trek Verve 2 Disc Lithium Grey HYBD <br> 2022</div>
+                        <div class="main-card__price">684 840 ₽</div>
+                        <button class="main-card__button"><span class="click">В 1 клик</span></button>
+                    </div>
+                    <div class="main-card">
+
+                        <div class="main-card__instock">Распродано</div>
+                        <div class="flag"><img src="./images/assortiment/flag2.png" alt=""></div>
+                        <div class="main-card__img"><img src="./images/assortiment/01.png" alt=""></div>
+                        <div class="main-card__tex">Trek Marlin 7 Matte Nautical Navy Matte <br>Anth ATB 29 2022</div>
+                        <div class="main-card__price">684 840 ₽</div>
+                        <button class="main-card__button"><span class="click">В 1 клик</span></button>
+                    </div>
+                    <div class="main-card">
+                        <div class="main-card__instock"><span class="green">В наличие</span></div>
+                        <div class="flag"><img src="./images/assortiment/flag3.png" alt=""></div>
+
+                        <div class="main-card__img"><img src="./images/assortiment/03.png" alt=""></div>
+                        <div class="main-card__tex">Trek Verve 2 Disc Lithium Grey HYBD <br> 2022</div>
+                        <div class="main-card__price">684 840 ₽</div>
+                        <button class="main-card__button"><span class="click">В 1 клик</span></button>
+                    </div>
+
+                </div>
+            </div>
+            <section class="catalog">
+                <div class="catalog-container _container">
+                    <h2 class="catalog-title">
+                        Каталог
+                    </h2>
+                    <div class="catalog-cards">
+                        <div class="inner">
+                            <div class="catalog-cards__card card1">
+                                <div class="card-text">Велосипеды</div>
+                            </div>
+                            <div class="catalog-card-second">
+                                <div class="catalog-cards-one card2">
+                                    <div class="card-text">Trade-in</div>
+                                </div>
+                                <div class="catalog-cards-two ">
+                                    <div class="catalog-cards__card card3">
+                                        <div class="card-text">Запчасти</div>
+                                    </div>
+                                    <div class="catalog-cards__card card4 ">
+                                        <div class="card-text">Аксессуары</div>
+                                    </div>
+                                </div>
+                                <div class="catalog-cards-three ">
+                                    <div class="catalog-cards__card card5">
+                                        <div class="card-text">Экипировка</div>
+                                    </div>
+                                    <div class="catalog-cards__card card6">
+                                        <div class="card-text">Велостанки</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="catalog-content">
+                                <h3 class="catalog-content__title">Ничего не сможет<br> остановить вас</h3>
+                                <div class="catalog-content__subtitle">
+                                    <div class="catalog-content__text">Наша компания специализируется на продаже товаров
+                                        для велосипедного спорта — велосипедов, запасных частей, аксессуаров
+                                        и различного спортивного инвентаря для активного спорта и отдыха.</div>
+                                    <a href="#" class="catalog-content__link">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+            <div class="demo"></div>
+            <div class="service">
+               <div class="service-container _container">
+                    <div class="service-block">
+                        <div class="service-block__title">
+                            <img src="./images/service/Group.png" alt="service" class="service-block__img">
+                            <div class="service-block__text">Европейские бренды</div>
+                        </div>
+                        <div class="service-block__subtitttle">Представляем десятки европейских брендов</div>
+                    </div>
+                    <div class="service-block">
+                        <div class="service-block__title">
+                            <img src="./images/service/free-icon-settings-cog-70314 1.png" alt="service" class="service-block__img">
+                            <div class="service-block__text">Вечная гарантия</div>
+                        </div>
+                        <div class="service-block__subtitttle">На некоторые бренды предоставляем пожизненную гарантию</div>
+                    </div>
+                    <div class="service-block">
+                        <div class="service-block__title">
+                            <img src="./images/service/free-icon-sticker-7494382_1.png" alt="service" class="service-block__img">
+                            <div class="service-block__text">Предпродажная настройка</div>
+                        </div>
+                        <div class="service-block__subtitttle">Специалисты настроят ваш велосипед наилучшим образом</div>
+                    </div>
+                    <div class="service-block">
+                        <div class="service-block__title">
+                            <img src="./images/service/free-icon-sticker-7494382_1.png" alt="service" class="service-block__img">
+                            <div class="service-block__text">Доставка за 24 часа</div>
+                        </div>
+                        <div class="service-block__subtitttle">Доставляем товар всеми популярными транспортными компаниями
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <section class="best-models">
+              
+                
+                <div class="best-models-content">
+                    <div class="best-models__title">
+                        Лучшие модели <br>для зимней<br>  езды
+                    </div>
+                    <div class="best-models__cards">
+                       
+                        <div class="main-card">
+                            <div class="main-card__instock">Распродано</div>
+                            <div class="flag"><img src="./images/assortiment/flag3.png" alt=""></div>
+                            <div class="main-card__img">
+                                <img src="./images/assortiment/02.png" alt="">
+                            </div>
+                            <div class="main-card__tex">Bianchi ARCADEX GRX600 40 Синий <br> 2022</div>
+                            <div class="main-card__price">684 840 ₽</div>
+                            <button class="main-card__button"><span class="click">В 1 клик</span></button>
+                        </div>
+                        <div class="main-card">
+    
+                            <div class="main-card__instock">Распродано</div>
+                            <div class="flag"><img src="./images/assortiment/flag2.png" alt=""></div>
+                            <div class="main-card__img"><img src="./images/assortiment/01.png" alt=""></div>
+                            <div class="main-card__tex">Trek Verve 1 Disc Low Step Era White <br>HYBD 2022</div>
+                            <div class="main-card__price">684 840 ₽</div>
+                            <button class="main-card__button"><span class="click">В 1 клик</span></button>
+                        </div>
+                        <div class="main-card">
+                            <div class="main-card__instock"><span class="click">Распродано</span></div>
+                            <div class="flag"><img src="./images/assortiment/flag1.png" alt=""></div>
+    
+                            <div class="main-card__img"><img src="./images/assortiment/03.png" alt=""></div>
+                            <div class="main-card__tex">Trek Dual Sport 1 Quicksilver Hybrid <br> 2022</div>
+                            <div class="main-card__price">684 840 ₽</div>
+                            <button class="main-card__button"><span class="click">В 1 клик</span></button>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+            
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
+    <script src="close.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+
+</html>
