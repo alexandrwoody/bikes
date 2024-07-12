@@ -1050,3 +1050,139 @@ table {
 
 
 }
+
+.mountain-bikes {
+    height: 907px;
+    /* bg */
+    background: rgb(248, 248, 248);
+
+    &__title {
+        /* desk h2 */
+        color: rgb(16, 16, 16);
+        font-family: Bebas Neue Cyrillic;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 123%;
+        letter-spacing: 5%;
+        text-align: left;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(2, 320px);
+        grid-template-rows: repeat(2, 233px);
+        gap: 16px;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 30px;
+    }
+
+    &__catalog {
+        display: flex;
+        flex-direction: column;
+        width: 509.67px;
+    }
+
+
+
+    &__text {
+        /* desk mob text 16 */
+        color: rgb(76, 76, 76);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 29px 0px 40px 0px;
+    }
+
+    &__link {
+        /* cta (Frame 19) */
+
+        width: 180px;
+        height: 52px;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: rgb(245, 117, 32);
+        /* desk mob cta */
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 123%;
+        letter-spacing: 0%;
+        text-align: right;
+        text-decoration: none;
+
+
+    }
+}
+
+.mountain-block {
+    border-radius: 10px;
+
+    /* dark */
+    background: rgb(52, 49, 45);
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        /* desk mob 20 */
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 160%;
+        letter-spacing: 1%;
+        text-align: left;
+    }
+
+    &__img {}
+
+    &__bottom {
+        /* desk mob text 16 */
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.mountain-bikes___img {
+    /* pic */
+
+    width: 509.67px;
+    height: 257px;
+
+}
+
+.mountain-bikes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 132px;
+    gap: 80px;
+
+}
+
+.mountain-bikes-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
