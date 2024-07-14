@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -9,17 +10,20 @@
   font-family: "Bebas Neue", sans-serif;
   src: url("../fonts/BebasNeue/BebasNeue-Regular.ttf");
 }
+
 @font-face {
   font-weight: 700;
   /* Соответствует значению bold */
   font-family: "Bebas Neue", sans-serif;
   src: url("../fonts/BebasNeue/BebasNeue-Bold.ttf");
 }
+
 @font-face {
   font-weight: 300;
   font-family: "Bebas Neue", sans-serif;
   src: url("../fonts/BebasNeue/BebasNeue-Light.ttf");
 }
+
 html a {
   text-decoration: none;
 }
@@ -305,6 +309,7 @@ table {
   visibility: hidden;
   top: 0;
 }
+
 .dop-menu__close {
   position: relative;
   width: 26px;
@@ -316,19 +321,24 @@ table {
   border: none;
   margin: 40px 0px 40px 382.7px;
 }
-.dop-menu__close:before, .dop-menu__close:after {
+
+.dop-menu__close:before,
+.dop-menu__close:after {
   content: "";
   position: absolute;
   width: 24px;
   height: 2px;
   background: rgb(179, 179, 179);
 }
+
 .dop-menu__close:before {
   transform: rotate(45deg);
 }
+
 .dop-menu__close:after {
   transform: rotate(-45deg);
 }
+
 .dop-menu__title {
   /* desk h3 */
   color: rgb(0, 0, 0);
@@ -339,11 +349,13 @@ table {
   letter-spacing: 5%;
   margin-bottom: 48px;
 }
+
 .dop-menu__list {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
+
 .dop-menu__link {
   /* desk mob med 18 */
   color: rgb(16, 16, 16);
@@ -375,15 +387,18 @@ table {
   animation: showLeft 2s;
   animation-fill-mode: forwards;
 }
+
 .header-content__title {
   font-size: 64px;
   font-weight: 700;
   line-height: 123%;
   letter-spacing: 5%;
 }
+
 .header-content__text {
   font-size: 16px;
 }
+
 .header-content__link {
   color: inherit;
   font-size: 16px;
@@ -402,10 +417,12 @@ table {
   from {
     left: -100%;
   }
+
   to {
     left: 0;
   }
 }
+
 .tabs {
   height: 212px;
   background: rgb(16, 16, 16);
@@ -418,6 +435,7 @@ table {
   align-items: center;
   justify-content: center;
 }
+
 .tab-content__text {
   justify-self: center;
   align-self: center;
@@ -428,6 +446,7 @@ table {
   line-height: 160%;
   letter-spacing: 1%;
 }
+
 .tab-content__link {
   /* desk mob cta */
   color: rgb(245, 117, 32);
@@ -462,6 +481,7 @@ table {
   width: 747px;
   height: 276px;
 }
+
 .active a {
   visibility: visible;
   text-decoration: none;
@@ -475,6 +495,7 @@ table {
   width: 747px;
   height: 276px;
 }
+
 .active2 a {
   visibility: visible;
   text-decoration: none;
@@ -488,6 +509,7 @@ table {
   width: 747px;
   height: 276px;
 }
+
 .active3 a {
   visibility: visible;
   text-decoration: none;
@@ -544,12 +566,14 @@ table {
   z-index: 1;
   transition: transform 0.8s;
 }
+
 .popup-menu__list {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 24px;
   padding: 40px 40px 0px 40px;
 }
+
 .popup-menu__link {
   color: inherit;
   text-decoration: none;
@@ -581,6 +605,7 @@ table {
     transform: translateX(-50%);
   }
 }
+
 .brands-carousel {
   transform: translate3d(0, 0, 0);
   /* Hey browser, please use my GPU */
@@ -639,12 +664,15 @@ table {
   /* white */
   background: rgb(255, 255, 255);
 }
+
 .main-card .green {
   color: green;
 }
+
 .main-card__img {
   margin-bottom: 16px;
 }
+
 .main-card__tex {
   /* desk mob subhead */
   /* desk mob subhead */
@@ -656,9 +684,11 @@ table {
   letter-spacing: 1%;
   margin-bottom: 24px;
 }
+
 .main-card__tex:hover {
   text-decoration: underline;
 }
+
 .main-card__price {
   /* desk mob cta */
   color: rgb(119, 119, 119);
@@ -668,6 +698,7 @@ table {
   line-height: 123%;
   letter-spacing: 0%;
 }
+
 .main-card__button {
   /* Frame 426 */
   width: 368px;
@@ -682,6 +713,7 @@ table {
   /* orange */
   background: rgb(245, 117, 32);
 }
+
 .main-card__button span {
   /* desk mob cta */
   color: rgb(255, 255, 255);
@@ -691,6 +723,7 @@ table {
   line-height: 123%;
   letter-spacing: 0%;
 }
+
 .main-card__instock {
   position: absolute;
   right: 0;
@@ -736,6 +769,7 @@ table {
   letter-spacing: 5%;
   text-align: left;
 }
+
 .catalog-cards__card {
   border-radius: 10px;
 }
@@ -801,6 +835,7 @@ table {
   justify-content: space-between;
   margin-top: 160px;
 }
+
 .catalog-content__title {
   /* desk h2 */
   color: rgb(16, 16, 16);
@@ -811,6 +846,7 @@ table {
   letter-spacing: 5%;
   text-align: left;
 }
+
 .catalog-content__subtitle {
   /* desk mob text 16 */
   color: rgb(16, 16, 16);
@@ -821,10 +857,12 @@ table {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .catalog-content__text {
   width: 510px;
   margin-bottom: 32px;
 }
+
 .inner {
   display: flex;
   flex-direction: column;
@@ -854,12 +892,14 @@ table {
   flex-direction: column;
   gap: 16px;
 }
+
 .service-block__title {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
 }
+
 .service-block__text {
   /* desk mob 20 */
   /* desk mob 20 */
@@ -872,6 +912,7 @@ table {
   text-align: left;
   white-space: nowrap;
 }
+
 .service-block__subtitttle {
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -889,6 +930,7 @@ table {
   align-items: center;
   justify-content: flex-end;
 }
+
 .best-models__cards {
   display: flex;
   align-self: flex-end;
@@ -917,6 +959,7 @@ table {
   /* bg */
   background: rgb(248, 248, 248);
 }
+
 .mountain-bikes__title {
   /* desk h2 */
   color: rgb(16, 16, 16);
@@ -927,23 +970,27 @@ table {
   letter-spacing: 5%;
   text-align: left;
 }
+
 .mountain-bikes__content {
   display: grid;
   grid-template-columns: repeat(2, 320px);
   grid-template-rows: repeat(2, 233px);
   gap: 16px;
 }
+
 .mountain-bikes__block {
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding: 30px;
 }
+
 .mountain-bikes__catalog {
   display: flex;
   flex-direction: column;
   width: 509.67px;
 }
+
 .mountain-bikes__text {
   /* desk mob text 16 */
   color: rgb(76, 76, 76);
@@ -955,6 +1002,7 @@ table {
   text-align: left;
   margin: 29px 0px 40px 0px;
 }
+
 .mountain-bikes__link {
   /* cta (Frame 19) */
   width: 180px;
@@ -982,11 +1030,13 @@ table {
   /* dark */
   background: rgb(52, 49, 45);
 }
+
 .mountain-block__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .mountain-block__title {
   /* desk mob 20 */
   color: rgb(255, 255, 255);
@@ -997,6 +1047,7 @@ table {
   letter-spacing: 1%;
   text-align: left;
 }
+
 .mountain-block__bottom {
   /* desk mob text 16 */
   color: rgb(255, 255, 255);
@@ -1040,17 +1091,20 @@ table {
   letter-spacing: 5%;
   text-align: left;
 }
+
 .advantages__background-left {
   width: 830px;
   height: 574px;
   background: url(../images/advantages/01.png);
 }
+
 .advantages__blocks {
   display: grid;
   grid-template-columns: repeat(2, 290px);
   grid-template-rows: repeat(2, 267px);
   gap: 40px;
 }
+
 .advantages__block {
   display: flex;
   flex-direction: column;
@@ -1059,6 +1113,7 @@ table {
   border-radius: 10px;
   background: rgb(245, 117, 32);
 }
+
 .advantages__block-title {
   /* desk mob 20 */
   color: rgb(255, 255, 255);
@@ -1069,6 +1124,7 @@ table {
   letter-spacing: 1%;
   text-align: left;
 }
+
 .advantages__block-lext {
   /* desk mob 16 light */
   color: rgb(255, 255, 255);
@@ -1080,6 +1136,7 @@ table {
   text-align: left;
   margin: 16px 0px 24px 0px;
 }
+
 .advantages__block-link {
   /* desk mob cta */
   color: rgb(255, 255, 255);
@@ -1090,6 +1147,7 @@ table {
   letter-spacing: 0%;
   text-align: left;
 }
+
 .advantages__background-rigt {
   width: 310px;
   height: 574px;
@@ -1100,4 +1158,6 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
