@@ -1197,18 +1197,13 @@ table {
 }
 
 .advantages {
+    height: 1030px;
 
     &__title {
         margin-top: 160px;
         margin-bottom: 80px;
         /* desk h2 */
-        color: rgb(16, 16, 16);
-        font-family: Bebas Neue Cyrillic;
-        font-size: 64px;
-        font-weight: 400;
-        line-height: 123%;
-        letter-spacing: 5%;
-        text-align: left;
+
     }
 
     &__background-left {
@@ -1282,4 +1277,113 @@ table {
     justify-content: space-between;
     align-items: center;
 
+}
+
+.title {
+    color: rgb(16, 16, 16);
+    font-family: Bebas Neue Cyrillic;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: left;
+}
+
+
+
+
+
+.equipment {
+    /* bg */
+    background: rgb(248, 248, 248);
+    height: 806px;
+
+
+    &__title {
+        padding: 80px 0px 80px 0px;
+    }
+
+    &__cards {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+.equipment-container {}
+
+
+.title {}
+
+.main-card {
+
+    &__instock {}
+
+    &__img {}
+
+    &__tex {}
+
+    &__price-sale {
+        display: flex;
+
+        gap: 8px;
+        align-items: flex-end;
+    }
+
+    &__price {}
+
+    &__sale {}
+}
+
+.card-arrow1 {
+    position: relative;
+    z-index: 20;
+    padding: 16px 16px 20px 16px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        left:16px;
+        top: 200px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        /* Vector */
+        z-index: 1;
+        width:10px;
+        height: 10px;
+        cursor: pointer;
+    }
+}
+.card-arrow2 {
+    position: relative;
+    z-index: 20;
+    padding: 16px 16px 20px 16px;
+}
+.text-size {
+    display: block;
+    height: 58px;
+    margin-bottom: 24px;
+}
+.card-arrow3 {
+    position: relative;
+    z-index: 20;
+    padding: 16px 16px 20px 16px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        right:16px;
+        top: 200px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        /* Vector */
+        z-index: 1;
+        width:10px;
+        height: 10px;
+        cursor: pointer;
+        
+    }
 }
